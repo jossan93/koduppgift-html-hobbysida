@@ -2,14 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-
+header {
+    text-align: center;
+    line-height: 1.6;
 }
 
+.You {
+    font-weight: bold;
+    font-size: larger;
+}
 
+.link-sammasidagrupp {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 25%;
+}
 
+.linksammasida {
+    margin: 10px;
+}
+
+.MSQ {
+    font-style: oblique;
+}
 
 
 
