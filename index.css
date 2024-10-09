@@ -41,9 +41,30 @@ ul {
     text-shadow: 0 0 3px red;
 }
 
+h3 {
+    text-align: center;
+    font-size: 210%;
+    border-top-style: solid;
+    line-height: 1.6;
+}
+
 .MSQ {
     font-style: oblique;
 }
+
+#offsidaff14 {
+    display: flex;
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    min-width: fit-content;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(173, 187, 212);
+    box-shadow: 10px 10px 5px black;
+
+}
+
 
 
 
@@ -69,3 +90,4 @@ th {
 .comment {
     text-align: left;
 }
+
