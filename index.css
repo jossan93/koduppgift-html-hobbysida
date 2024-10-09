@@ -45,7 +45,7 @@ h3 {
     text-align: center;
     font-size: 210%;
     border-top-style: solid;
-    line-height: 1.6;
+    line-height: 2;
 }
 
 .MSQ {
@@ -65,7 +65,7 @@ h3 {
 
 }
 
-h4 {
+h4 { /* text top på trailers */
     margin-top: 10px;
     text-align: center;
 }
@@ -113,12 +113,7 @@ h4 {
     justify-content: center;
 }
 
-
-
-
-
-
-
+/* table styling start*/
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -133,4 +128,4 @@ th {
 .comment {
     text-align: left;
 }
-
+/* table styling end*/
