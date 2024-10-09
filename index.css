@@ -95,7 +95,17 @@ h4 {
     justify-content: center;
 }
 
-
+#offGW2 { /*link box */
+    display: flex;
+    position: absolute;
+    right: 10%;
+    bottom: -140%;
+    min-width: fit-content;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(255, 156, 156);
+    box-shadow: 10px 10px 5px black;
+}
 
 
 
