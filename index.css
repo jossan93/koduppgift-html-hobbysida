@@ -52,7 +52,7 @@ h3 {
     font-style: oblique;
 }
 
-#offsidaff14 {
+#offsidaff14{ /*link box */
     display: flex;
     position: absolute;
     right: 10%;
@@ -75,6 +75,18 @@ h4 {
     display: flex;
     justify-content: center;
 
+}
+
+#offwow { /*link box */
+    display: flex;
+    position: absolute;
+    right: 10%;
+    bottom: -60%;
+    min-width: fit-content;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(218, 188, 20);
+    box-shadow: 10px 10px 5px black;
 }
 
 
