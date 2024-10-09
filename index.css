@@ -26,6 +26,21 @@ header {
     margin: 10px;
 }
 
+ul {
+    font-size: 200%;
+}
+#pris {
+    text-shadow: 0 0 3px green;
+}
+
+#genre {
+    text-shadow:0 0 3px blue;
+}
+
+#combat {
+    text-shadow: 0 0 3px red;
+}
+
 .MSQ {
     font-style: oblique;
 }
