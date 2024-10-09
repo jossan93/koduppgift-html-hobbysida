@@ -89,6 +89,11 @@ h4 {
     box-shadow: 10px 10px 5px black;
 }
 
+.wow-trailer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
 
 
 
