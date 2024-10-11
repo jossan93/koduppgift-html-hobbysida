@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -67,7 +68,7 @@ h3 {
 
 }
 
-.ff14-linkandtable {
+.ff14-linkandtable, .wow-linkandtable, .gw2-linkandtable {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -79,7 +80,7 @@ h4 { /* text top på trailers */
     text-align: center;
 }
 
-.ff14-trailer {
+.ff14-trailer, .wow-trailer, .gw2-trailer {
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -99,17 +100,6 @@ h4 { /* text top på trailers */
     background-color: rgb(218, 188, 20);
     box-shadow: 10px 10px 5px black;
 }
-.wow-linkandtable {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.wow-trailer {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-}
 
 #offGW2 { /*link box */
     min-width: auto;
@@ -123,18 +113,6 @@ h4 { /* text top på trailers */
     margin: 20px;
     background-color: rgb(255, 156, 156);
     box-shadow: 10px 10px 5px black;
-}
-
-.gw2-linkandtable {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.gw2-trailer {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
 }
 
 /* table styling start*/
