@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -52,7 +53,7 @@ h3 {
     font-style: oblique;
 }
 
-#offsidaff14{ /*link box */
+#offsidaff14, #offwow, #offGW2 {
     min-width: auto;
     max-width: fit-content;
     display: flex;
@@ -62,24 +63,25 @@ h3 {
     height: auto;
     padding: 30px;
     margin: 20px;
-    background-color: rgb(173, 187, 212);
-    box-shadow: 10px 10px 5px black;
-
 }
 
-.ff14-linkandtable {
+#offsidaff14{ /*link box */
+    background-color: rgb(173, 187, 212);
+    box-shadow: 10px 10px 5px black;
+}
+
+.ff14-linkandtable, .wow-linkandtable, .gw2-linkandtable {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
-
 
 h4 { /* text top på trailers */
     margin-top: 10px;
     text-align: center;
 }
 
-.ff14-trailer {
+.ff14-trailer, .wow-trailer, .gw2-trailer {
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -87,54 +89,13 @@ h4 { /* text top på trailers */
 }
 
 #offwow { /*link box */
-    min-width: auto;
-    max-width: fit-content;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    flex: 50%;
-    height: auto;
-    padding: 30px;
-    margin: 20px;
     background-color: rgb(218, 188, 20);
     box-shadow: 10px 10px 5px black;
 }
-.wow-linkandtable {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.wow-trailer {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-}
 
 #offGW2 { /*link box */
-    min-width: auto;
-    max-width: fit-content;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    flex: 50%;
-    height: auto;
-    padding: 30px;
-    margin: 20px;
     background-color: rgb(255, 156, 156);
     box-shadow: 10px 10px 5px black;
-}
-
-.gw2-linkandtable {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.gw2-trailer {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
 }
 
 /* table styling start*/
